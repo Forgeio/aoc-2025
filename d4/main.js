@@ -21,7 +21,7 @@ let columnSize = grid.length;
 
 while (removedThisRound != 0) {
   let r = 0;
-  
+
   for(let i=0; i < rowSize; i++) {
     for(let j=0; j < columnSize; j++) {
       let x = grid[i][j];
